@@ -24,3 +24,12 @@ make
 ### Binaries
 
 No binaries yet.
+
+## Authors
+
+Simon Petit
+
+## License
+
+This programm is released under the MIT License, for details see
+[LICENSE]((https://github.com/SiwonP/blob/master/LICENSE).
