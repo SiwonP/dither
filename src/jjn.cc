@@ -57,7 +57,7 @@ int jjn(Mat image)
                 image.at<uchar>(i+2, j+1) = correct(image.at<uchar>(i+2, j+1) + 3*error/48);
             }
 
-            if (i < rows-2 && j < cols-2) {
+            if (i < rows-2 && j < cols-2) {
                 image.at<uchar>(i+2, j+2) = correct(image.at<uchar>(i+2, j+2) + error/48);
             }
 
@@ -69,7 +69,7 @@ int jjn(Mat image)
                 image.at<uchar>(i+2, j-2) = correct(image.at<uchar>(i+2, j-2) + error/48);
             }
 
-            return 1;
         }
     }
+    return 1;
 }
