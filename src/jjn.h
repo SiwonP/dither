@@ -3,6 +3,6 @@
 
 #include <opencv2/opencv.hpp>
 
-int jjn(Mat image);
+int jjn(cv::Mat image);
 
 #endif
