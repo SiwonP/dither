@@ -4,9 +4,18 @@ Dithering algorithms in C/C++ with OpenCV
 
 ## Getting Started
 
+### Prerequisites 
+
 If you want to compiled this program from source, you should have `make`,
 `cmake` and a C++ compiler (either g++ or clang) installed.
 
+### Usage
+
+After compiling, the command line tool is pretty straight forward:
+
+```
+./dither <input_file> <output_file>
+```
 
 ## Installation
 
