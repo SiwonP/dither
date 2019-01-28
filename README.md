@@ -34,6 +34,12 @@ make
 
 No binaries yet.
 
+## TODO
+
+ - Adding different algorithms
+ - Choosing algorithm from command line arguments
+ - Adding color or b&w modes
+
 ## Authors
 
 Simon Petit
