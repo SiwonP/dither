@@ -5,6 +5,7 @@
 #include "jjn.h"
 #include "stucki.h"
 #include "burkes.h"
+#include "sierra.h"
 
 using namespace cv;
 
