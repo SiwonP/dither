@@ -4,6 +4,7 @@
 #include "floyd_steinberg.h"
 #include "jjn.h"
 #include "stucki.h"
+#include "burkes.h"
 
 using namespace cv;
 
@@ -17,8 +18,8 @@ int main(int argc, char *argv[])
 
         image = imread(argv[1], 0);
 
-        //floyd_steinberg(image);
-        stucki(image);
+        floyd_steinberg(image);
+        //stucki(image);
 
         imwrite(argv[2], image);
         image.release();
